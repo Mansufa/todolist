@@ -1,3 +1,13 @@
-header{
-    background-color: var(--blue-500);
+.input{
+    background: var(--gray-300);
+}
+
+@media (max-width: 768px){
+    html{
+        font-size: 87.5%;
+    }
+
+    .wrapper{
+        grid-template-columns: 1fr;
+    }
 }
